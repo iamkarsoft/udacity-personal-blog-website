@@ -6,7 +6,6 @@
  * Destop, Extra Large Screens
  */
 
-@import "responsive.css";
 @import "form.css";
 @import "footer.css";
 @import "author.css";
@@ -176,7 +175,171 @@ blockquote{
  * Small Screen mediaquer
  */
 
+@media screen and ( max-width: 360px){
+	body{
+		margin:  0;
+
+	}
+
+.tags{
+	margin: 0.5rem 0.25rem;
+	background: #023047;
+	padding: 0.2rem;
+	color: white;
+	font-weight: 700;
+	font-style: italic;
+
+}
+
+	/* navigation */
+.nav{
+	display: flex;
+	justify-content: space-between;
+	padding: 5%;
+}
+
+#wrapper{
+	display: grid;
+	grid-template-columns: 100%;
+	margin: 0 5%;
+}
+
+.footer{
+	display: block;	
+}
+
+
+/* comments form */
+form{
+	margin: 2rem 1rem;
+}
+
+label{
+	margin: 1.2rem 0 0 0;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+input{
+	padding: 0.5rem;
+	margin: 0.2rem 0;
+	border: 2px solid #999;
+
+}
+
+textarea{
+	margin-top:1rem;
+	border: 2px solid #999;
+
+}
+
+.form-group{
+	display: flex;
+	flex-direction: column;
+}
+
+.meta{
+	font-size: .95rem;
+}
+
+.meta a{
+	color: #3d405b;
+	text-decoration: none;
+}
+
+button{
+	background: #3d405b;
+	color: white;
+	font-weight: 900;
+	margin-top: 1.5rem;
+	border: 2px solid #3d405b;
+	width: 40%;
+	outline: none;
+	padding: 0.3rem 0.5rem;
+}
+
+
+}
+
+
 @media screen and ( max-width: 480px){
+	body{
+		margin:  0;
+
+	}
+
+	/* navigation */
+.nav{
+	display: flex;
+	justify-content: space-between;
+	padding: 5%;
+}
+
+#wrapper{
+	display: grid;
+	grid-template-columns: 100%;
+	margin: 0 5%;
+}
+
+.footer{
+	display: block;	
+}
+
+
+/* comments form */
+form{
+	margin: 2rem 1rem;
+}
+
+label{
+	margin: 1.2rem 0 0 0;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+input{
+	padding: 0.5rem;
+	margin: 0.2rem 0;
+	border: 2px solid #999;
+
+}
+
+textarea{
+	margin-top:1rem;
+	border: 2px solid #999;
+
+}
+
+.form-group{
+	display: flex;
+	flex-direction: column;
+}
+
+.meta{
+	font-size: .95rem;
+}
+
+.meta a{
+	color: #3d405b;
+	text-decoration: none;
+}
+
+button{
+	background: #3d405b;
+	color: white;
+	font-weight: 900;
+	margin-top: 1.5rem;
+	border: 2px solid #3d405b;
+	width: 40%;
+	outline: none;
+	padding: 0.3rem 0.5rem;
+}
+
+
+}
+
+
+@media screen and ( min-width: 480px) and (max-width: 745px){
 	body{
 		margin:  0;
 

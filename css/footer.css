@@ -1,0 +1,23 @@
+
+/* Footer */
+.footer {
+	font-size: 1.6rem;
+	padding: 1rem 2rem;
+	border: 2px solid #e1e1e1;
+	background: #2a9d8f;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 2rem;
+
+}
+
+.footer .social-links {
+	margin: 1rem 0;
+}
+
+.social-links a{
+	color: white;
+	font-size: 0.72rem;
+	font-weight: bold;
+}

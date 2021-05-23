@@ -6,7 +6,9 @@
  * Destop, Extra Large Screens
  */
 
-
+@import "responsive.css";
+@import "form.css";
+@import "footer.css";
 /*body */
 
 
@@ -20,12 +22,26 @@ body{
 /*Homepage */
 
 
+header h2, header .tags-container{
+	padding: 0 2rem;
+}
+
+
+
 
 
 #wrapper{
 	display: grid;
 	grid-template-columns: 50% 50%;
 	margin: 0 5%;
+}
+
+#wrapper .card p{
+	padding: 0 2rem;
+}
+
+#wrapper .card .continue-read{
+	padding: 0 2rem;
 }
 
 /* Site title */
@@ -43,6 +59,8 @@ body{
 /* Header */
 
 /* Tags */
+
+
 
 .tags-container{
 	display: flex;
@@ -119,41 +137,27 @@ body{
 	margin-top: 110px;
 }
 
-/* Footer */
-.footer {
-	font-size: 1.6rem;
-	padding: 1rem 2rem;
-	border: 2px solid #e1e1e1;
-	background: #2a9d8f;
-	color: white;
-	display: flex;
-	justify-content: space-between;
-	margin-top: 2rem;
-
-}
-
-.footer .social-links {
-	margin: 1rem 0;
-}
-
-.social-links a{
-	color: white;
-	font-size: 0.72rem;
-	font-weight: bold;
-}
 
 /* blogpost page*/
 
 
-.blogpost-card{
-
+.social-share{
+	font-size: smaller;
 }
-
 
 #blogpost-wrapper h1{
-	font-size: 2.4rem
+	font-size: 2.4rem;
+	padding: 0 2rem;
 }
 
+
+#blogpost-wrapper .meta{
+	padding: 0 2rem;
+}
+
+#blogpost-wrapper p{
+	padding: 0 2rem;
+}
 
 blockquote{
 	border-left: 5px solid #d90429;
@@ -161,55 +165,10 @@ blockquote{
 	background: #d3d3d3;
 }
 
-/* comments form */
-form{
-	margin: 2rem 5rem;
-}
 
-label{
-	margin: 1.2rem 0 0 0;
-	font-size: 1.2rem;
-	font-weight: bold;
-}
-
-input{
-	padding: 0.5rem;
-	margin: 0.2rem 0;
-	border: 2px solid #999;
+figure{
 
 }
-
-textarea{
-	margin-top:1rem;
-	border: 2px solid #999;
-
-}
-
-.form-group{
-	display: flex;
-	flex-direction: column;
-}
-
-.meta{
-	font-size: .95rem;
-}
-
-.meta a{
-	color: #3d405b;
-	text-decoration: none;
-}
-
-button{
-	background: #3d405b;
-	color: white;
-	font-weight: 900;
-	margin-top: 1.5rem;
-	border: 2px solid #3d405b;
-	width: 20%;
-	outline: none;
-	padding: 0.3rem 0.5rem;
-}
-
 
 
 /** 
@@ -314,4 +273,6 @@ button{
 /**
  * Destop, Lare Screens
  */
+
+
 

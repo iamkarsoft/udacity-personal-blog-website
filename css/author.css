@@ -1,0 +1,16 @@
+/** bio section **/
+
+.bio{
+	padding:  0 2rem;
+}
+
+.bio img{
+	border:  2px solid black;
+	border-radius: 1rem;
+	width: 150px;
+	height: 150px;
+}
+
+.bio-text{
+	padding:  0 2rem;
+}
